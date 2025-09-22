@@ -24,10 +24,7 @@ code-generator-tester/
 ├── tests/ # Unit tests
 ├── README.md # Project documentation
 
-yaml
-Copy code
 
----
 
 ## ⚡ Deployment / Project Links
 
