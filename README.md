@@ -62,11 +62,11 @@ cd code-generator-tester-Flowwith-2.0
 Run the unit tests (Python example):
 
 bash
-Copy code
+
 python -m unittest discover tests
 📝 Usage Example
 python
-Copy code
+
 from src.sorter import sort_list_ascending
 
 numbers = [5, 3, 2, 4, 1]
@@ -87,5 +87,3 @@ Built with Flowith 2.0 – AI project automation platform
 
 Inspired by modern AI-assisted development workflows
 
-yaml
-Copy code
