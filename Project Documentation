@@ -1,0 +1,24 @@
+Integer List Sorter
+Version: 1.0
+Author: Neo (AI Project Assistant)
+
+1. Project Overview
+This project provides a simple, efficient, and pure Python function named sort_list_ascending for sorting a list of integers. It is designed to be a standalone utility with no external dependencies, ensuring maximum portability.
+
+The function adheres to functional programming principles by not modifying the original input list (immutability), instead returning a new, sorted list.
+
+2. Core Functionality
+The primary deliverable is a single Python function.
+
+Function: sort_list_ascending(numbers: list[int]) -> list[int]
+Location: src/sorter.py
+Usage Example
+To use the function, import it from the sorter module and pass it a list of integers.
+
+from src.sorter import sort_list_ascending
+
+Example 1: Standard list
+unsorted_list = [5, 2, 8, 1, 9] sorted_list = sort_list_ascending(unsorted_list) print(f"Original: {unsorted_list}") # -> Original: [5, 2, 8, 1, 9] print(f"Sorted: {sorted_list}") # -> Sorted: [1, 2, 5, 8, 9]
+
+Example 2: List with mixed values
+mixed_list = [-5, 10, 0, -1, 3] sorted_mixed = sort_list_ascending(mixed_list) print(f"Sorted: {sorted_mixed}") # -> Sorted: [-5, -1, 0, 3, 10]
